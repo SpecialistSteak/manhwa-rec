@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf079630-5156-4a00-9c9f-93aae2769756" name="Changes" comment="">
+    <list default="true" id="bf079630-5156-4a00-9c9f-93aae2769756" name="Changes" comment="updated pom.xml">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/specialiststeak/scraper/AnimePlanetScraperApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/specialiststeak/scraper/endpoint/AnimePlanetLinkFinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/specialiststeak/scraper/endpoint/AnimePlanetLinkScraperToJsonFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/specialiststeak/scraper/endpoint/objects/Endpoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/specialiststeak/scraper/utils/ErrorUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/specialiststeak/scraper/utils/FileUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/specialiststeak/scraper/utils/GetHTMLUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/specialiststeak/scraper/utils/GsonUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/specialiststeak/scraper/utils/ListUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/anime-planet-anime.json.ORIGINAL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/anime-planet-manga-p1.json.ORIGINAL" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -12,8 +26,18 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Owfrnfp47GyciasjJITXZQZHj7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -23,13 +47,143 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Luke/Documents/Code/manhwa-rec/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "8d0f409987be83f7ca78c2ca57b95f6e",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Luke\Documents\Code\manhwa-rec\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.AnimePlanetScraperApplication">
+    <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
+      <option name="appName" />
+      <option name="appServicePlanName" />
+      <option name="appServicePlanResourceGroup" />
+      <option name="appSettingsKey" value="cf480d6c-2a64-4134-8f03-85c09f5cdc15" />
+      <option name="artifact" />
+      <option name="debugOptions" />
+      <option name="deployment" />
+      <option name="deploymentStagingDirectoryPath" />
+      <option name="funcPath" />
+      <option name="functionHostArguments" />
+      <option name="hostJsonPath" />
+      <option name="insightsName" />
+      <option name="instrumentationKey" />
+      <option name="javaVersion" />
+      <option name="localSettingsJsonPath" />
+      <option name="moduleName" />
+      <option name="os" />
+      <option name="pricingTier" />
+      <option name="providerMap">
+        <map />
+      </option>
+      <option name="region" />
+      <option name="resourceGroup" />
+      <option name="stagingFolder" />
+      <option name="subscription" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnimePlanetLinkFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.specialiststeak.scraper.endpoint.AnimePlanetLinkFinder" />
+      <module name="manhwa-rec" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.specialiststeak.scraper.endpoint.objects.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnimePlanetLinkScraperToJsonFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.specialiststeak.scraper.endpoint.AnimePlanetLinkScraperToJsonFile" />
+      <module name="manhwa-rec" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.specialiststeak.scraper.endpoint.objects.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.specialiststeak.scraper.utils.FileUtils" />
+      <module name="manhwa-rec" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.specialiststeak.scraper.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.specialiststeak.scraper.utils.sd" />
+      <module name="manhwa-rec" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.specialiststeak.scraper.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnimePlanetScraperApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="manhwa-rec" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.specialiststeak.scraper.AnimePlanetScraperApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.specialiststeak.scraper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.AnimePlanetScraperApplication" />
+        <item itemvalue="Application.sd" />
+        <item itemvalue="Application.FileUtils" />
+        <item itemvalue="Application.AnimePlanetLinkScraperToJsonFile" />
+        <item itemvalue="Application.AnimePlanetLinkFinder" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -38,11 +192,32 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682476767145</updated>
-      <workItem from="1682476770145" duration="8000" />
+      <workItem from="1682476770145" duration="3185000" />
+      <workItem from="1683535566289" duration="1261000" />
+      <workItem from="1683867143072" duration="967000" />
+      <workItem from="1685899247762" duration="161000" />
+      <workItem from="1685899462993" duration="4014000" />
+      <workItem from="1686097802707" duration="29000" />
+      <workItem from="1687272347855" duration="1022000" />
+      <workItem from="1687805200387" duration="94000" />
+      <workItem from="1687809447454" duration="38650000" />
+      <workItem from="1689000727596" duration="701000" />
     </task>
+    <task id="LOCAL-00001" summary="updated pom.xml">
+      <created>1682476820954</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682476820954</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updated pom.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated pom.xml" />
   </component>
 </project>
